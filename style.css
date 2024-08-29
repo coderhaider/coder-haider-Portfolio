@@ -8,7 +8,7 @@
 
 body{
     background-color: #FFFFFF;
-   
+  
 }
 .nav{
     width: 100%;
@@ -174,6 +174,7 @@ h6{
     font-weight: 500;
     font-size: 20px;
     color: #050505d7;
+    width: 200px;
 }
 button{
     position: relative;
@@ -308,9 +309,9 @@ button a{
         align-items: center;
         
     }
-    .nav{
+    /* .nav{
         width: 100%;
-    }
+    } */
     #header{
         display: flex;
         flex-direction: column;
@@ -321,6 +322,7 @@ button a{
         align-items: center;
         
     }
+    
     .left{
         padding: 100px 30px 0 30px;
         width: 100%;
@@ -339,5 +341,52 @@ button a{
     .footer .sociallink img{
         width: 20px;
     }
-  
+}
+    @media (max-width:400px) {
+        .left h1{
+        font-size: 60px;
+        
+        
+    }
+   
+    .left h2{
+        font-size: 20px;
+    }
+        .left p{
+            width: 100%;
+        }
+        .right .photos{
+            width: 200px;
+            height: 200px;
+        }
+        .nav{
+            padding:  0;
+            width: 100%;
+           justify-content: center;
+           align-items: center;
+           gap: 0px;
+           
+
+        }
+        .nav h3{
+            font-size: 15px;
+
+        }
+        .nav2 h4{
+            font-size: 10px;
+        }
+        .nav2{
+            gap: 10px;
+        }
+        @media (max-width:326px) {
+            .projects img{
+                width: 200px;
+            }
+            .procontent, .procontent2, .procontent3, .procontent4, .procontent5{
+                width: 200px;
+            }
+            .project1, .project2, .project3, .project4, .project5{
+                width: 200px;
+            }
+        }
     }
