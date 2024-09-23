@@ -35,16 +35,14 @@ body{
    
 
 }
-.nav2 h4:hover{
+.nav2 h4:active{
     border-bottom: 2px solid black;
     margin-bottom: 22px;
     /* transform: scale(0.9); */
-    transition: 0.1s ease-in ;
+    transition: 0.11s ease-in-out ;
  
 }
-.nav2 h4 a:active{
-    transition: 5s ease;
-}
+
 
 .nav h3{
     font-weight: 600;
