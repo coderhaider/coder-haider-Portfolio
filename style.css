@@ -446,6 +446,19 @@ button:hover,button:active{
         }
     }
 
+    @media (max-width:456px) {
+        .nav{
+            padding-left: 10px;
+        }
+        .nav2 h4{
+            font-size: 11px;
+        
+        }
+        .nav2{
+            gap: 10px;
+        }
+    }
+
     /* Getin touch form */
     @media (max-width:869px) {
         
