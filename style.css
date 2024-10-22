@@ -72,6 +72,11 @@ body{
     height: 900px;
     display: flex;
     padding: 0px 30px 0 30px;
+    background-image: url(./images/06ded2be-68c1-4023-ab8c-0783ccfb952c.jpg); 
+    background-size: cover;
+    transition: 3s all linear;
+    
+    
   
  
 }
@@ -247,7 +252,7 @@ button:hover,button:active{
 #skills{
     width: 100%;
     height: 500px;
-    background: linear-gradient(to right bottom, rgb(233, 160, 221),rgb(120, 200, 231));
+  
 
 }
 #skills p{
@@ -277,18 +282,21 @@ button:hover,button:active{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
+    background-image: url(./images/3357683.jpg);
+   background-size: cover;
+   background-position: center;
 
 }
 #contact h2{
     font-size: 50px;
     font-weight: 700;
+    color: #cfc991;
    
 }
 #contact p{
   
     font-weight: 350;
-    color: rgb(107, 105, 105);
+    color: rgb(255, 255, 255);
 }
 .container{
     width: 40%;
@@ -301,17 +309,21 @@ button:hover,button:active{
     height: 40px;
     padding: 3px 4px;
     border-radius: 6px;
-    border: 1px solid #d7d7df;
+    border: 0px;
     margin-top: 20px;
     outline: none;
+    background-color: #2c2b2b;
+    color: #FFFFFF;
 }
 .container input[name='text']{
     width: 100%;
     height: 250px;
     border-radius: 6px;
-    border: 1px solid #d7d7df;
+      border: 0px;
     margin-top: 20px;
     outline: none;
+    background-color: #2c2b2b;
+    color: #FFFFFF;
 }
 .inputbtn{
     background-color: black;
@@ -411,11 +423,169 @@ button:hover,button:active{
     transition-duration: 0.3s;
   }
   
+  .content1{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+  }
+  .content1 .cnt1{
+    width: 40%;
+ 
+  }
+  .content1 .cnt2 h3{
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    font-family: "Arima", system-ui;
+    text-decoration: underline rgb(221, 221, 214);
 
+  } 
 
+  .content1 .cnt1 img{
+    width: 100%;
+  
+  
+    transition: 1s all linear;
+  
+  }
+  .content1 .cnt2 {
+    width: 60%;  
+    padding: 0 100px;
 
+  }
+  .content1 .cnt2 p{
+    font-family: "Arima", system-ui;
+    text-align: left;
+    font-size: 19px;
+    font-weight: 400;
+    color: #aaaaacb0;
+    line-height: 30px;
+    transition: 3s all linear;
+  }
 
+.content2{
+    width: 100%;
+    display: flex;
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arima", system-ui;
+}
+.content2 .cnt1{
+    width: 50%;
+    
+}
+.content2 .cnt2{
+    width: 50%;
+}
+.content2 .cnt1 img{
+    width: 100%;
+}
+.content2 .cnt2 h3{
+    font-family: "Arima", system-ui;
+    font-weight: 900;
+    font-size: 60px;
+    color: #212122;
+}
+.content2 .cnt2 ul li{
+    font-family: "Arima", system-ui;
+    font-weight: 600;
+    font-size: 19px;
+    color: #b6b6b6;
+}
+
+#header .right .background img{
+    width: 100%;
+    position: relative;
+    bottom: 250px;
+    left: 25px;
+}
+@media (max-width: 1029px) {
+    #header .right .background img{
+        bottom: 180px;
+       left: 5px;
+    }
+}
+    @media (max-width: 813px) {
+        #header .right .background img{
+           
+            position: relative;
+            width: 90%;
+            right: 250px;
+            left: 0;
+          
+            
+          
+        }
+}
+/* 
+2nd image set up profile */
+
+/* content 1 responsive */
+
+@media (max-width: 566px) {
+    .content2 {
+       
+        flex-wrap: wrap;
+        flex-direction: column;
+    
+        height: 1000px;
+      
+        
+      
+    }
+    .content2 .cnt2 h3{
+        font-size: 25px;
+    }
+    .content2 .cnt2 ul li{
+        font-size: 17px;
+    }
+   
+    
+
+}
+/* 
+Content 1 responsive */
+
+@media (max-width:871px) {
+    .content1 .cnt2 h3{
+        font-size: 25px;
+    }
+    .content1 .cnt2 p{
+        font-size: 15px;
+    }
+    .content1 .cnt2{
+        padding:  0 10px;
+    }
+    
+}
+@media (max-width:768px){
+    .content1{
+        padding: 50px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        align-items: center;
+     
+    }
+    .content1 .cnt1 {
+        height: 600px;
+        width: 100%;
+    }
+    .content1 .cnt2 {
+        padding: 0 0;
+        height: 1200px;
+    }
+    
+}
+@media (max-width:336px) {
+    .content1 .cnt2 p {
+        font-size: 12px;
+    }
+}
 
 @media (max-width:1029px) {
     #projectsection{
