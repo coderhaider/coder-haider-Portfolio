@@ -72,7 +72,7 @@ body{
     height: 900px;
     display: flex;
     padding: 0px 30px 0 30px;
-    background-image: url(./images/06ded2be-68c1-4023-ab8c-0783ccfb952c.jpg); 
+    background-image: url(./images/Coder-HaiderAli\,\ website\ theme.webp); 
     background-size: cover;
     transition: 3s all linear;
     
@@ -95,7 +95,7 @@ body{
     width: 450px;
     height: 450px;
     border-radius: 50%;
-  background-image: url(./images/Coder\ Haider-\ Digital\ Marketing.jpg);
+  background-image: url(./images/Coder\ Haider-\ Digital\ Marketing.webp);
   background-size: cover;
   background-position: center;
   border: 5px solid #d7d7df;
@@ -282,7 +282,7 @@ button:hover,button:active{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(./images/3357683.jpg);
+    background-image: url(./images/Coder-Haider\,\ Get\ in\ touch\ theme.webp);
    background-size: cover;
    background-position: center;
 
