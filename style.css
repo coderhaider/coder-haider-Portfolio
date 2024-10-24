@@ -167,14 +167,7 @@ body{
     color: rgb(107, 105, 105);
 
 }
-/* button{
-    background-color: black;
-    color: white;
-    border: 0px;
-    border-radius: 11px;    
-    width: 130px;
-    height: 40px;
-} */
+
 .projects{
     width: 100%;
     height: auto;
@@ -277,7 +270,6 @@ button:hover,button:active{
 }
 #contact{
     width: 100%;
-    height: 900px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -290,22 +282,29 @@ button:hover,button:active{
 #contact h2{
     font-size: 50px;
     font-weight: 700;
-    color: #cfc991;
+    color: #3995ac;
+    text-align: center;
    
 }
 #contact p{
   
-    font-weight: 350;
-    color: rgb(255, 255, 255);
+    font-weight: 500;
+    color: rgb(160, 12, 98);
+    text-align: center;
 }
 .container{
-    width: 40%;
-    max-width: 30%;
+
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
   
 }
+
 .container input[name='first_name'],input[name='tel'], input[name='email']{
-    width: 100%;
+  width: 400px;
     height: 40px;
     padding: 3px 4px;
     border-radius: 6px;
@@ -316,7 +315,7 @@ button:hover,button:active{
     color: #FFFFFF;
 }
 .container input[name='text']{
-    width: 100%;
+    width: 400px;
     height: 250px;
     border-radius: 6px;
       border: 0px;
@@ -362,67 +361,6 @@ button:hover,button:active{
     opacity: 0.7;
 }
 
-
-.button {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: rgb(20, 20, 20);
-    border: none;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 0px 0px 4px rgba(180, 160, 255, 0.253);
-    cursor: pointer;
-    transition-duration: 0.3s;
-    overflow: hidden;
-    position: sticky;
-    left: 1120px;
-    top: 790px;
-    
-  }
-  
-  .svgIcon {
-    width: 12px;
-    transition-duration: 0.3s;
-  }
-  
-  .svgIcon path {
-    fill: white;
-  }
-  
-  .button:hover {
-    width: 140px;
-    border-radius: 50px;
-    transition-duration: 0.3s;
-    background-color: rgb(181, 160, 255);
-    align-items: center;
-  }
-  
-  .button:hover .svgIcon {
-    /* width: 20px; */
-    transition-duration: 0.3s;
-    transform: translateY(-200%);
-  }
-  
-  .button::before {
-    position: absolute;
-    bottom: -20px;
-    content: "Back to Top";
-    color: white;
-    /* transition-duration: .3s; */
-    font-size: 0px;
-  }
-  
-  .button:hover::before {
-    font-size: 13px;
-    opacity: 1;
-    bottom: unset;
-    /* transform: translateY(-30px); */
-    transition-duration: 0.3s;
-  }
-  
   .content1{
     width: 100%;
     display: flex;
@@ -500,8 +438,8 @@ button:hover,button:active{
 #header .right .background img{
     width: 100%;
     position: relative;
-    bottom: 250px;
-    left: 25px;
+    bottom: 240px;
+    right: 15px;
 }
 @media (max-width: 1029px) {
     #header .right .background img{
@@ -716,14 +654,14 @@ Content 1 responsive */
             height: 40px;
             padding: 3px 4px;
             border-radius: 6px;
-            border: 1px solid #d7d7df;
+           
             margin-top: 20px;
         }
         .container input[name='text']{
             width: 300px;
             height: 250px;
             border-radius: 6px;
-            border: 1px solid #d7d7df;
+
             margin-top: 20px;
         }
     }
@@ -734,14 +672,13 @@ Content 1 responsive */
             height: 40px;
             padding: 3px 4px;
             border-radius: 6px;
-            border: 1px solid #d7d7df;
+
             margin-top: 20px;
         }
         .container input[name='text']{
             width: 200px;
             height: 250px;
             border-radius: 6px;
-            border: 1px solid #d7d7df;
             margin-top: 20px;
         }
     }
@@ -761,14 +698,14 @@ Content 1 responsive */
             height: 40px;
             padding: 3px 4px;
             border-radius: 6px;
-            border: 1px solid #d7d7df;
+     
             margin-top: 20px;
         }
         .container input[name='text']{
             width: 200px;
             height: 250px;
             border-radius: 6px;
-            border: 1px solid #d7d7df;
+           
             margin-top: 20px;
         }
     }
