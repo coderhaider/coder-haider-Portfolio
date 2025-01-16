@@ -1,28 +1,34 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
-        scroll-behavior: smooth;
+    scroll-behavior: smooth;
 
-      
+
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background-color: #fdfdfd;
-  
+    width: 100%;
+    min-height: 100vh;
+
 }
 
-.nav1 img{
+
+.nav1 img {
     height: 60px;
 }
-.nav1 img:hover{
+
+.nav1 img:hover {
     opacity: 0.5;
 }
-.nav{
+
+.nav {
     width: 100%;
     height: 90px;
     display: flex;
@@ -32,85 +38,96 @@ body{
     border-bottom: 0.6px solid #d7d7df;
     position: fixed;
     backdrop-filter: blur(30px);
-     
 
- 
+
+
 }
+
 /* .nav h3 a{
     text-decoration: none;
     color: black;
 } */
-.nav2{
+.nav2 {
     display: flex;
     gap: 25px;
     padding-top: 15px;
 }
-.nav2 h4 a{
+
+.nav2 h4 a {
     text-decoration: none;
     color: black;
-   
+
 
 }
 
-.nav2 h4:active, .nav2 h4:hover{
+.nav2 h4:active,
+.nav2 h4:hover {
     border-bottom: 2px solid black;
     margin-bottom: 22px;
     /* transform: scale(0.9); */
     opacity: 0.3;
     transform: scale(0.9);
-    transition: 0.2s ease;
- 
+    transition: all .25s linear;
+    color: #e7e2e2;
+
 }
 
 
-.nav h3{
+.nav h3 {
     font-weight: 600;
     font-size: 30px;
     box-sizing: border-box;
 }
-.nav2 h4{
+
+.nav2 h4 {
     font-weight: 500;
-    
+
 }
-#header{
+
+#header {
     width: 100%;
     height: 900px;
     display: flex;
     padding: 0px 30px 0 30px;
-    background-image: url(./images/Coder-HaiderAli\,\ website\ theme.webp); 
+    background-image: url(./images/Coder-HaiderAli\,\ website\ theme\,\ Haider\ Ali.webp);
     background-size: cover;
-  
-    
-  
- 
+    background-repeat: no-repeat;
+
+
+
+
+
 }
 
-.left{
+.left {
     width: 50%;
     height: auto;
-    padding: 420px 0 0 0 ;
+    padding: 420px 0 0 0;
 }
-.right{
+
+.right {
     width: 50%;
     height: auto;
     padding: 250px 0 0 100px;
 }
-.right .photos{
+
+.right .photos {
     width: 450px;
     height: 450px;
     border-radius: 50%;
-  background-image: url(./images/Coder\ Haider-\ Digital\ Marketing.webp);
-  background-size: cover;
-  background-position: center;
-  border: 5px solid #d7d7df;
+    background-image: url(./images/Coder\ Haider-\ Digital\ Marketing.webp);
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #d7d7df;
 
 }
+
 /* .right img{
     width: 200px;
 } */
 
 
-.right .rightlink{
+.right .rightlink {
     width: 45px;
     height: 300px;
     background-color: #fcfafa;
@@ -123,56 +140,64 @@ body{
     align-items: center;
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(72, 69, 129, 0.849);
-    
- 
+
+
 }
 
-.rightlink a img{
+.rightlink a img {
     width: 40px;
 }
-.rightlink a img:active, .rightlink a img:hover {
+
+.rightlink a img:active,
+.rightlink a img:hover {
     transform: scale(0.8);
-    transition: 0.1s ease;
+    transition: all .25s linear;
     opacity: 0.5;
 
 }
-.left h1{
+
+.left h1 {
     font-size: 90px;
     font-weight: 600;
     line-height: 90px;
-  
+
 }
-.left h2{
+
+.left h2 {
     font-weight: 600;
     font-size: 30px;
 }
-.left p{
+
+.left p {
     font-weight: 400;
     color: rgb(107, 105, 105);
     width: 75%;
-   
+
 }
-#projectsection{
+
+#projectsection {
     width: 100%;
     height: 900px;
     background-color: #F4F4F5;
     /* padding: 90px; */
-    
+
 }
-#projectsection h2{
+
+#projectsection h2 {
     text-align: center;
     font-size: 60px;
     font-weight: 700;
 
 }
-#projectsection p{
+
+#projectsection p {
     text-align: center;
     font-weight: 350;
     color: rgb(107, 105, 105);
 
 }
 
-.projects{
+.projects {
     width: 100%;
     height: auto;
     display: flex;
@@ -182,42 +207,58 @@ body{
     flex-wrap: wrap;
     gap: 50px;
     margin-top: 70px;
-    
-    
+
+
 }
- 
- .projects img{
+
+.projects img {
     position: relative;
     width: 300px;
     height: 200px;
     border-radius: 11px;
     border: 1.5px solid #d7d7df;
-   
- }
-.project1, .project2, .project3, .project4, .project5{
+
+}
+
+.project1,
+.project2,
+.project3,
+.project4,
+.project5 {
     width: 300px;
     height: 200px;
-   
+
 }
-.procontent, .procontent2, .procontent3, .procontent4, .procontent5{
+
+.procontent,
+.procontent2,
+.procontent3,
+.procontent4,
+.procontent5 {
     width: 300px;
     height: 220px;
     position: relative;
     bottom: 220px;
-   border-radius: 11px;
-   opacity: 0;
-   backdrop-filter: blur(3px);
+    border-radius: 11px;
+    opacity: 0;
+    backdrop-filter: blur(3px);
 
- 
-   
+
+
 }
-.procontent:hover, .procontent2:hover, .procontent3:hover, .procontent4:hover, .procontent5:hover{
+
+.procontent:hover,
+.procontent2:hover,
+.procontent3:hover,
+.procontent4:hover,
+.procontent5:hover {
     opacity: 1;
     transition: 0.2s ease-in;
     /* transform: scale(1.2); */
 
 }
-h6{
+
+h6 {
     position: relative;
     top: 80px;
     left: 40px;
@@ -226,89 +267,105 @@ h6{
     color: #050505d7;
     width: 200px;
 }
-button{
+
+button {
     position: relative;
     top: 95px;
     left: 80px;
     background-color: black;
     color: white;
     border: 0px;
-    border-radius: 11px;    
+    border-radius: 11px;
     width: 130px;
     height: 40px;
     cursor: pointer;
 }
-button a{
+
+button a {
     text-decoration: none;
     color: #FFFFFF;
 }
-button:hover,button:active{
+
+button:hover,
+button:active {
     opacity: 0.7;
 
 }
-#skills{
+
+#skills {
     width: 100%;
     height: 500px;
-  
+
 
 }
-#skills p{
+
+#skills p {
     text-align: center;
     font-weight: 350;
     color: rgb(41, 40, 40);
 }
-#skills h2{
+
+#skills h2 {
     text-align: center;
     font-weight: 650;
     font-size: 50px;
     padding-top: 60px;
 }
-.skills2 img{
+
+.skills2 img {
     width: 100px;
 }
-.skills2{
+
+.skills2 {
     height: 300px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
-#contact{
+
+#contact {
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-image: url(./images/Coder-Haider\,\ Get\ in\ touch\ theme.webp);
-   background-size: cover;
-   background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
 }
-#contact h2{
+
+#contact h2 {
     font-size: 50px;
     font-weight: 700;
     color: #3995ac;
     text-align: center;
-   
+
 }
-#contact p{
-  
+
+#contact p {
+
     font-weight: 500;
     color: rgb(160, 12, 98);
     text-align: center;
 }
-.container{
 
-    
+.container {
+
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
-  
+
 }
 
-.container input[name='first_name'],input[name='tel'], input[name='email']{
-  width: 400px;
+.container input[name='first_name'],
+input[name='tel'],
+input[name='email'] {
+    width: 400px;
     height: 40px;
     padding: 3px 4px;
     border-radius: 6px;
@@ -318,21 +375,23 @@ button:hover,button:active{
     background-color: #2c2b2b;
     color: #FFFFFF;
 }
-.container input[name='text']{
+
+.container input[name='text'] {
     width: 400px;
     height: 250px;
     border-radius: 6px;
-      border: 0px;
+    border: 0px;
     margin-top: 20px;
     outline: none;
     background-color: #2c2b2b;
     color: #FFFFFF;
 }
-.inputbtn{
+
+.inputbtn {
     background-color: black;
     color: white;
     border: 0px;
-    border-radius: 11px;    
+    border-radius: 11px;
     width: 130px;
     height: 40px;
     cursor: pointer;
@@ -341,9 +400,10 @@ button:hover,button:active{
     right: 300px; */
     top: 0;
     left: 0;
-    margin-top:20px ;
+    margin-top: 20px;
 }
-.footer{
+
+.footer {
     width: 100%;
     height: 60px;
     display: flex;
@@ -351,54 +411,61 @@ button:hover,button:active{
     align-items: center;
     padding: 0 30px;
     border-top: 0.6px solid #d7d7df;
-    
+
 }
+
 .sociallink a i {
-    font-size:  30px;
+    font-size: 30px;
     color: rgb(59, 55, 55);
 
- 
-    
-  
+
+
+
 }
-.sociallink a i:active, .sociallink a i:hover{
+
+.sociallink a i:active,
+.sociallink a i:hover {
     opacity: 0.7;
 }
 
-  .content1{
+.content1 {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0px 0 250px 0;
 
-  }
-  .content1 .cnt1{
+}
+
+.content1 .cnt1 {
     width: 50%;
- 
-  }
-  .content1 .cnt2 h3{
+
+}
+
+.content1 .cnt2 h3 {
     text-align: center;
     font-weight: 900;
     font-size: 36px;
     font-family: "Arima", system-ui;
     text-decoration: underline rgb(221, 221, 214);
 
-  } 
+}
 
-  .content1 .cnt1 img{
+.content1 .cnt1 img {
     width: 100%;
-  
-  
+
+
     transition: 1s all linear;
-  
-  }
-  .content1 .cnt2 {
-    width: 50%;  
+
+}
+
+.content1 .cnt2 {
+    width: 50%;
     padding: 0 50px;
 
-  }
-  .content1 .cnt2 p{
+}
+
+.content1 .cnt2 p {
     font-family: "Arima", system-ui;
     text-align: left;
     font-size: 19px;
@@ -406,9 +473,9 @@ button:hover,button:active{
     color: #aaaaacb0;
     line-height: 30px;
     transition: 3s all linear;
-  }
+}
 
-.content2{
+.content2 {
     width: 100%;
     display: flex;
     height: 700px;
@@ -416,45 +483,52 @@ button:hover,button:active{
     align-items: center;
     font-family: "Arima", system-ui;
 }
-.content2 .cnt1{
+
+.content2 .cnt1 {
     width: 50%;
-    
+
 }
-.content2 .cnt2{
+
+.content2 .cnt2 {
     width: 50%;
 }
-.content2 .cnt1 img{
+
+.content2 .cnt1 img {
     width: 100%;
 }
-.content2 .cnt2 h3{
+
+.content2 .cnt2 h3 {
     font-family: "Arima", system-ui;
     font-weight: 900;
     font-size: 60px;
     color: #212122;
 }
-.content2 .cnt2 ul li{
+
+.content2 .cnt2 ul li {
     font-family: "Arima", system-ui;
     font-weight: 600;
     font-size: 19px;
     color: #b6b6b6;
 }
 
-#header .right .background img{
+#header .right .background img {
     width: 100%;
     position: relative;
     bottom: 240px;
     right: 15px;
 }
+
 @media (max-width: 1029px) {
-    #header .right .background img{
+    #header .right .background img {
         visibility: hidden;
     }
-    #header .right .background{
+
+    #header .right .background {
         display: none;
     }
-   
+
 }
-   
+
 /* 
 2nd image set up profile */
 
@@ -462,67 +536,79 @@ button:hover,button:active{
 
 @media (max-width: 566px) {
     .content2 {
-       
+
         flex-wrap: wrap;
         flex-direction: column;
-    
+
         height: 1000px;
-      
-        
-      
+
+
+
     }
-    .content2 .cnt2 h3{
+
+    .content2 .cnt2 h3 {
         font-size: 25px;
     }
-    .content2 .cnt2 ul li{
+
+    .content2 .cnt2 ul li {
         font-size: 17px;
     }
-   .content2 .cnt1{
-    width: 100%;
-   }
-   .content2 .cnt2{
-    width: 100%;
-    padding: 0 60px;
-   }
+
+    .content2 .cnt1 {
+        width: 100%;
+    }
+
+    .content2 .cnt2 {
+        width: 100%;
+        padding: 0 60px;
+    }
 
 }
+
 /* 
 Content 1 responsive */
 
 @media (max-width:871px) {
-    .content1 .cnt2 h3{
+    .content1 .cnt2 h3 {
         font-size: 25px;
     }
-    .content1 .cnt2 p{
+
+    .content1 .cnt2 p {
         font-size: 15px;
     }
-    .content1 .cnt2{
-        padding:  0 10px;
-       
+
+    .content1 .cnt2 {
+        padding: 0 10px;
+
     }
-    .content1  {
+
+    .content1 {
         padding: 0;
     }
 }
-@media (max-width:768px){
-    .content1{
+
+@media (max-width:768px) {
+    .content1 {
         padding: 0;
         display: flex;
         flex-direction: column;
-        justify-content:flex-start;
-        
+        justify-content: flex-start;
+
     }
+
     .content1 .cnt1 {
-       
+
         width: 100%;
     }
+
     .content1 .cnt2 {
         padding: 0 50px;
         width: 100%;
     }
-   
-    
+
+
 }
+
 @media (max-width:336px) {
     .content1 .cnt2 p {
         font-size: 12px;
@@ -530,178 +616,217 @@ Content 1 responsive */
 }
 
 @media (max-width:1029px) {
-    #projectsection{
+    #projectsection {
         height: 2000px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
     }
-    .right{
-        padding: 350px 0 0 100px ;
+
+    .right {
+        padding: 350px 0 0 100px;
     }
+
     .right .photos {
         width: 300px;
         height: 300px;
-        
+
     }
+
     @media (max-width:817px) {
-        #header{
+        #header {
             display: flex;
             flex-direction: column-reverse;
             justify-content: center;
             align-items: center;
         }
-        .right{
+
+        .right {
             padding: 20px 100px 0 170px;
             width: 100%;
         }
-        .left{
-            padding: 0 ;
-            width: 100%;
-        }
-        .right .photos{
-            width: 250px;
-            height: 250px;
-        }
-        .footer .sociallink a i{
-            font-size: 19px;
-        }
-    }
-    @media (max-width:470px) {
-        .right{
+
+        .left {
             padding: 0;
             width: 100%;
         }
-        
+
+        .right .photos {
+            width: 250px;
+            height: 250px;
+        }
+
+        .footer .sociallink a i {
+            font-size: 19px;
+        }
     }
-}
-    @media (max-width:400px) {
-        .left h1{
-        font-size: 60px;
-        
-        
-    }
-   
-    .left h2{
-        font-size: 20px;
-    }
-        .left p{
+
+    @media (max-width:470px) {
+        .right {
+            padding: 0;
             width: 100%;
         }
-        .right .photos{
-            width: 200px;
-            height: 200px;
-        }
-        
-        #header{
-            padding: 0px 0px 0px 0px;
-        }
-        .nav h3{
-            font-size: 16px;
 
-        }
-        .nav2 h4{
-            font-size: 10px;
-        }
-        .nav2{
-            gap: 10px;
-        }
-        @media (max-width:326px) {
+    }
+}
 
-            .projects{
-                justify-content: center;
-                align-items: center;
-                display: flex;
-                flex-direction: column;
+@media (max-width:400px) {
+    .left h1 {
+        font-size: 60px;
 
-            }
-            .projects img{
-                width: 200px;
-            }
-            .procontent, .procontent2, .procontent3, .procontent4, .procontent5{
-                width: 200px;
-            }
-            .project1, .project2, .project3, .project4, .project5{
-                width: 200px;
-            }
-        }
+
     }
 
-    @media (max-width:456px) {
-        .nav{
-            padding-left: 10px;
-        }
-        .nav2 h4{
-            font-size: 11px;
-        
-        }
-        .nav2{
-            gap: 10px;
-        }
+    .left h2 {
+        font-size: 20px;
     }
 
-    /* Getin touch form */
-    @media (max-width:869px) {
-        
-        .container input[name='first_name'],input[name='tel'], input[name='email']{
-            width: 300px;
-            height: 40px;
-            padding: 3px 4px;
-            border-radius: 6px;
-           
-            margin-top: 20px;
-        }
-        .container input[name='text']{
-            width: 300px;
-            height: 250px;
-            border-radius: 6px;
-
-            margin-top: 20px;
-        }
+    .left p {
+        width: 100%;
     }
 
-    @media (max-width:475px) {
-        .container input[name='first_name'],input[name='tel'], input[name='email']{
-            width: 200px;
-            height: 40px;
-            padding: 3px 4px;
-            border-radius: 6px;
-
-            margin-top: 20px;
-        }
-        .container input[name='text']{
-            width: 200px;
-            height: 250px;
-            border-radius: 6px;
-            margin-top: 20px;
-        }
+    .right .photos {
+        width: 200px;
+        height: 200px;
     }
 
-    @media (max-width:344px){
+    #header {
+        padding: 0px 0px 0px 0px;
+    }
 
-        form, .container{
+    .nav h3 {
+        font-size: 16px;
+
+    }
+
+    .nav2 h4 {
+        font-size: 10px;
+    }
+
+    .nav2 {
+        gap: 10px;
+    }
+
+    @media (max-width:326px) {
+
+        .projects {
+            justify-content: center;
+            align-items: center;
             display: flex;
             flex-direction: column;
-            justify-content: left;
-            align-items: center;
+
         }
 
-
-        .container input[name='first_name'],input[name='tel'], input[name='email']{
+        .projects img {
             width: 200px;
-            height: 40px;
-            padding: 3px 4px;
-            border-radius: 6px;
-     
-            margin-top: 20px;
         }
-        .container input[name='text']{
+
+        .procontent,
+        .procontent2,
+        .procontent3,
+        .procontent4,
+        .procontent5 {
             width: 200px;
-            height: 250px;
-            border-radius: 6px;
-           
-            margin-top: 20px;
+        }
+
+        .project1,
+        .project2,
+        .project3,
+        .project4,
+        .project5 {
+            width: 200px;
         }
     }
+}
+
+@media (max-width:456px) {
+    .nav {
+        padding-left: 10px;
+    }
+
+    .nav2 h4 {
+        font-size: 11px;
+
+    }
+
+    .nav2 {
+        gap: 10px;
+    }
+}
+
+/* Getin touch form */
+@media (max-width:869px) {
+
+    .container input[name='first_name'],
+    input[name='tel'],
+    input[name='email'] {
+        width: 300px;
+        height: 40px;
+        padding: 3px 4px;
+        border-radius: 6px;
+
+        margin-top: 20px;
+    }
+
+    .container input[name='text'] {
+        width: 300px;
+        height: 250px;
+        border-radius: 6px;
+
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:475px) {
+
+    .container input[name='first_name'],
+    input[name='tel'],
+    input[name='email'] {
+        width: 200px;
+        height: 40px;
+        padding: 3px 4px;
+        border-radius: 6px;
+
+        margin-top: 20px;
+    }
+
+    .container input[name='text'] {
+        width: 200px;
+        height: 250px;
+        border-radius: 6px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:344px) {
+
+    form,
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        align-items: center;
+    }
+
+
+    .container input[name='first_name'],
+    input[name='tel'],
+    input[name='email'] {
+        width: 200px;
+        height: 40px;
+        padding: 3px 4px;
+        border-radius: 6px;
+
+        margin-top: 20px;
+    }
+
+    .container input[name='text'] {
+        width: 200px;
+        height: 250px;
+        border-radius: 6px;
+
+        margin-top: 20px;
+    }
+}
