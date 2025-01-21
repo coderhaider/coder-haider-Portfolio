@@ -15,7 +15,7 @@ html {
 body {
     background-color: #fdfdfd;
     width: 100%;
-    min-height: 100vh;
+    min-height: 400vh;
 
 }
 
@@ -29,6 +29,7 @@ body {
 }
 
 .nav {
+    z-index: +20;
     width: 100%;
     height: 90px;
     display: flex;
@@ -92,6 +93,7 @@ body {
     background-image: url(./images/Coder-HaiderAli\,\ website\ theme\,\ Haider\ Ali.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    
 
 
 
@@ -447,7 +449,7 @@ input[name='email'] {
     font-weight: 900;
     font-size: 36px;
     font-family: "Arima", system-ui;
-    text-decoration: underline rgb(221, 221, 214);
+   
 
 }
 

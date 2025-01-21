@@ -27,6 +27,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap" rel="stylesheet">
 <!-- Animation Library -->
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="./button.css">
 </head>
 <body>
     <div class="nav">
@@ -34,10 +35,11 @@
         <a href="https://www.youtube.com/@coderhaider" target="_blank"><img src="./images/Company, Logo-Code You Haider.webp" alt="Coder Haider Website Logo"></a>
         </div>
         <div class="nav2">
-            <h4><a href="#header">Home</h4></a>
-            <h4><a href="#projectsection">Project</h4></a>
-            <h4><a href="#skills">Skills</h4></a>
-            <h4 ><a href="#contact">Contact</h4></a>
+            <input type="checkbox" class="theme-checkbox">
+            <h4 class="nav-h1"><a href="#header">Home</h4></a>
+            <h4 class="nav-h2"><a href="#projectsection">Project</h4></a>
+            <h4 class="nav-h3"><a href="#skills">Skills</h4></a>
+            <h4 class="nav-h4"><a href="#contact">Contact</h4></a>
         </div>
     </div>
     <div id="header">
@@ -70,15 +72,15 @@
         <div class="cnt2">
             <h3>How Can I Help You?</h3><br>
             <ul>
-                <li>Custom Web Development : From concept to deployment, I create fully responsive, tailored websites that are designed to perform.</li>
-                <li>Programming & Problem-Solving: Need a specific feature or a complex functionality? I’m experienced in solving challenging technical problems.</li>
-                <li>Consulting & Collaboration: Looking for advice on a project or need a partner for collaboration? Let’s talk!</li>
+                <li class="cnt2-li-1">Custom Web Development : From concept to deployment, I create fully responsive, tailored websites that are designed to perform.</li>
+                <li class="cnt2-li-2">Programming & Problem-Solving: Need a specific feature or a complex functionality? I’m experienced in solving challenging technical problems.</li>
+                <li class="cnt2-li-3">Consulting & Collaboration: Looking for advice on a project or need a partner for collaboration? Let’s talk!</li>
             </ul>
         </div>
     </div>      
     <div id="projectsection">
-        <h2>Featured Projects</h2>
-        <p>Check out some of my recent work and see how I can help bring your ideas to life.</p>
+        <h2 class="project-heading">Featured Projects</h2>
+        <p class="project-paragraph">Check out some of my recent work and see how I can help bring your ideas to life.</p>
         <div class="projects">
             <div class="project1" data-aos="fade-up"><img src="./images/youtube channel.webp" alt="Profile Portfolio : Coder haider">
                 <div class="procontent">
@@ -113,15 +115,15 @@
             <img src="./images/Coder Haider Ali - Digital Marketing, Website Maker , Website Development.webp" alt="Are you ready to bring your next big idea to life? Whether you're looking for a custom-built website, a unique web application, or expert guidance on your current project, I’m here to help." >
         </div>
         <div class="cnt2">
-                <h3>Let’s Build Something Amazing Together!</h3>
-                <p>Are you ready to bring your next big idea to life? Whether you're looking for a custom-built website, a unique web application, or expert guidance on your current project, I’m here to help.</p><br>
+                <h3 class="cnt2-heading">Let’s Build Something Amazing Together!</h3>
+                <p class="cnt2-para">Are you ready to bring your next big idea to life? Whether you're looking for a custom-built website, a unique web application, or expert guidance on your current project, I’m here to help.</p><br>
 
-                <p>I specialize in creating responsive, user-friendly, and highly functional websites that stand out in today's digital world. Let’s connect, share ideas, and work together to turn your vision into reality.</p>
+                <p class="cnt2-para2">I specialize in creating responsive, user-friendly, and highly functional websites that stand out in today's digital world. Let’s connect, share ideas, and work together to turn your vision into reality.</p>
         </div>
     </div>
     <div id="skills" data-aos="fade">
-        <h2>My Skills</h2>
-        <p>I'm proficient in a wide range of frontend technologies and tools, alowing me to create high-quality and scalable web application</p>
+        <h2 class="head-skill">My Skills</h2>
+        <p class="para-skill">I'm proficient in a wide range of frontend technologies and tools, alowing me to create high-quality and scalable web application</p>
         <div class="skills2">
          <img src="./images/html webp.webp" alt="" >
          <img src="./images/css webp.webp" alt="" >
@@ -156,5 +158,7 @@
     <script>
       AOS.init();
     </script>
+
+    <script src="./button.js"></script>
 </body>
 </html>
