@@ -304,9 +304,11 @@ button:active {
 #skills p {
     text-align: center;
     font-weight: 350;
-    color: rgb(41, 40, 40);
+   
 }
-
+.para-skill{
+    color: rgb(41, 40, 40)
+}
 #skills h2 {
     text-align: center;
     font-weight: 650;
@@ -341,16 +343,21 @@ button:active {
 #contact h2 {
     font-size: 50px;
     font-weight: 700;
-    color: #3995ac;
+
     text-align: center;
 
 }
 
 #contact p {
-
+ 
     font-weight: 500;
-    color: rgb(160, 12, 98);
     text-align: center;
+}
+.get-head{
+    color: #3995ac;
+}
+.get-para{
+    color: #8e969b;
 }
 
 .container {
@@ -457,7 +464,6 @@ input[name='email'] {
     width: 100%;
 
 
-    transition: 1s all linear;
 
 }
 
@@ -472,9 +478,16 @@ input[name='email'] {
     text-align: left;
     font-size: 19px;
     font-weight: 400;
-    color: #aaaaacb0;
+
     line-height: 30px;
-    transition: 3s all linear;
+   
+}
+
+.cnt2-para{
+    color: #aaaaacb0;
+}
+.cnt2-para2{
+    color: #aaaaacb0;
 }
 
 .content2 {
