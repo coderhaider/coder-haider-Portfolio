@@ -33,6 +33,8 @@ button.addEventListener("click",() => {
          document.querySelector("#skills").classList.add("backG");
          document.querySelector(".footer").classList.add("backGn");
          document.querySelector(".footer-para").classList.add("bco");
+         document.querySelector(".nav").classList.add("borderRe");
+         document.querySelector(".footer").classList.add("borderRe");
         
         
          
@@ -66,6 +68,8 @@ button.addEventListener("click",() => {
         document.querySelector("#skills").classList.remove("backG");
         document.querySelector(".footer").classList.remove("backGn");
         document.querySelector(".footer-para").classList.remove("bco");
+        document.querySelector(".nav").classList.remove("borderRe");
+        document.querySelector(".footer").classList.remove("borderRe");
 
     }
     console.log(color);
