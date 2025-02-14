@@ -76,3 +76,9 @@ button.addEventListener("click",() => {
 })
 
 
+function toggleMenu() {
+    const navLinks = document.getElementById("navigation");
+    const hamburger = document.getElementById("hamburger");
+    navLinks.classList.toggle("open");
+    hamburger.classList.toggle("open");
+}

@@ -31,13 +31,16 @@
  <link rel="stylesheet" href="./toggle.css">
  <!-- dark.css -->
   <link rel="stylesheet" href="./dark.css">
+
+  <!-- nav.css -->
+   <link rel="stylesheet" href="./nav.css">
 </head>
 <body>
     <div class="nav" data-aos="fade">
         <div class="nav1">
         <a href="https://www.youtube.com/@coderhaider" target="_blank"><img src="./images/Company, Logo-Code You Haider.webp" alt="Coder Haider Website Logo"></a>
         </div>
-        <div class="nav2">
+        <div class="nav2" id="navigation">
             <!-- From Uiverse.io by RiccardoRapelli --> 
 <label class="switch">
     <input id="input" type="checkbox" checked="darkTheme" />
@@ -111,6 +114,12 @@
             <h4 class="bluefont"><a href="#skills">Skills</h4></a>
             <h4 class="bluefont"><a href="#contact">Contact</h4></a>
         </div>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+      </div>
+        
     </div>
     <div id="header">
         <div class="left" data-aos="fade-right"  data-aos-delay="50">
