@@ -23,8 +23,11 @@
         width: 100%;
         top: -100%;
         bottom: -100vh;
-        background-color: #333333de;
+        top: 90px;
+        z-index: -2;
+        background-color: #ffffffb6;
         flex-direction: column;
+        
         gap: 30px;
         justify-content: center;
         align-items: center;
