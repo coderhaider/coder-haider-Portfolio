@@ -1,4 +1,4 @@
-let button = document.querySelector("#input")
+let button = document.querySelector("#darkmode-toggle")
 let color = "White";
 
 button.addEventListener("click",() => {
