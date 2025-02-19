@@ -63,9 +63,6 @@ body {
 
 .nav2 h4:active,
 .nav2 h4:hover {
-    border-bottom: 2px solid black;
-    margin-bottom: 22px;
-    /* transform: scale(0.9); */
     opacity: 0.3;
     transform: scale(0.9);
     transition: all .25s linear;
