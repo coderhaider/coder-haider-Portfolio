@@ -35,6 +35,8 @@ button.addEventListener("click",() => {
          document.querySelector(".footer-para").classList.add("bco");
          document.querySelector(".nav").classList.add("borderRe");
          document.querySelector(".footer").classList.add("borderRe");
+        document.querySelector(".contact-container").classList.remove("backlive")
+
         
         
          
@@ -70,7 +72,8 @@ button.addEventListener("click",() => {
         document.querySelector(".footer-para").classList.remove("bco");
         document.querySelector(".nav").classList.remove("borderRe");
         document.querySelector(".footer").classList.remove("borderRe");
-
+         document.querySelector(".contact-container").classList.add("backlive")
+        
     }
     console.log(color);
 })
