@@ -828,3 +828,30 @@ Content 1 responsive */
         margin-top: 20px;
     }
 }
+
+
+body::-webkit-scrollbar{
+    width: 9px;
+    background-color: #bde0fe;
+    
+}
+
+
+body::-webkit-scrollbar-thumb{
+   
+    background-color: #09477e;
+    background: linear-gradient(to bottom right ,#1976D2,#64B5F6);
+    border-radius: 30px;
+    
+   
+}
+body::-webkit-scrollbar-thumb:hover{
+   
+  background-color: #09477e;
+    background: linear-gradient(to bottom right ,#d1d0d0,#64B5F6);
+    border-radius: 30px;
+   
+}
+
+
+
